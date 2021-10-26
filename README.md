@@ -5,7 +5,7 @@ BOMCP solves problems defined using the [POMDPs.jl](https://github.com/JuliaPOMD
 
 ## Installation
 
-原项目的依赖文件有点问题，下下来之后没法直接编译成功，需要做一些添补，当前文件是添补完的，可以直接拉下来运行。
+原项目的依赖文件有点问题，下下来之后没法直接编译成功，需要做一些添补，而且代码部分虽然开源了，但是测试环境和实验部分并没有开源，所以没法复现。
 
 ```julia
 import Pkg
@@ -205,4 +205,5 @@ Fields:
     Function or object to return for the intial action node selection. 
     Defaults to randomly sample an action from the action space.
     default: `rand_action`
+
 # BOMCP.jl
